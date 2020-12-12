@@ -1,11 +1,16 @@
-<h1 [innerText]="title"></h1>
+<!-- <h1 [innerText]="title"></h1>
 <h2>Example 1</h2>
-<button [disabled]="isDisabled">I am disabled</button>
+<button [disabled]="isDisabled">I am disabled</button> -->
 
-<p>{{script}}</p>
+<!-- <p>{{script}}</p>
 <p >{{div}}</p>
 <p>The item name is: {{nullItem?.Name}}</p>
 
 <div> Hi, This Text will not generating error Console!!! {{data?.firstName}} </div> 
 
-<p [textContent]="evilText"></p> 
+<p [textContent]="evilText"></p>  -->
+
+<h2>Example 1</h2>
+<input type="text" [value]="name" [(ngModel)]="value">
+<p> You entered {{name}}</p>
+<button (click)="clearName()">Clear</button>

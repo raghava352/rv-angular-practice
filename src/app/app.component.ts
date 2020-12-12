@@ -28,4 +28,9 @@ export class AppComponent {
 
   script = '<script>alert("You are hacked")</script>';
   div = "<div>this is a div</div>";
+
+  value = "";
+  clearValue() {
+    this.value = "";
+  }
 }
