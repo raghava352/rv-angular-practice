@@ -1,3 +1,10 @@
 p {
   font-family: Lato;
 }
+
+.even {
+  background-color: azure;
+}
+.odd {
+  background-color: floralwhite;
+}
